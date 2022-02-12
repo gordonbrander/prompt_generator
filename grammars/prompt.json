@@ -1,0 +1,222 @@
+{
+  "start": [
+    "A #prompt_type# to #scamper.lowercase# #factor#",
+    "A #prompt_type# to #scamper.lowercase# #attribute#",
+    "A #prompt_type# to make an analogy to #analogy#"
+  ],
+  "prompt_type": [
+    "provocation",
+    "question prompt",
+    "either/or prompt"
+  ],
+  "scamper": [
+    "Substitute",
+    "Combine",
+    "Adapt/Adjust",
+    "Modify/Magnify/Minify",
+    "Put to other uses",
+    "Eliminate",
+    "Reverse/Rearrange"
+  ],
+  "analogy": [
+    "another field (#field#, #field#, #field#)",
+    "nature (how is my subject like... #nature#, #nature#, #nature#)"
+  ],
+  "scamper_ext": [
+    "#scamper#",
+    "Merge",
+    "Copy",
+    "Repeat",
+    "Add",
+    "Subtract",
+    "Broaden",
+    "Exaggerate",
+    "Overstate"
+  ],
+  "prompt": [
+    "#combine_sentence#",
+    "#adapt_sentence#",
+    "#modify_sentence#",
+    "#put_sentence#",
+    "#rearrange_sentence#"
+  ],
+  "combine_sentence": [
+    "Can you merge #factor.lowercase.s#?",
+    "Could combining #factor.lowercase.s# or #factor.lowercase.s# be an improvement?",
+    "What about some sort of combination of #factor.lowercase.s#?"
+  ],
+  "adapt_sentence": [
+    "Can you think of a #relation.lowercase# from nature? How is the subject like #nature.lowercase.a#? Try making a #list.lowercase#. What #relation.lowercase.s# do you see?",
+    "Can you think of a #relation.lowercase# from another field? How is the subject like #field.lowercase#? Try making a #list.lowercase#. What #relation.lowercase.s# do you see?"
+  ],
+  "modify_sentence": [
+    "What can we modify? #factor#? #factor#? #factor#?",
+    "What can we change to create #relation#.lowercase.a#?"
+  ],
+  "put_sentence": [
+    "How might we put the #factor.lowercase# to other uses?"
+  ],
+  "rearrange_sentence": [
+    "What other #structure.lowercase# might be better?",
+    "Can you rearrange the #structure.lowercase#?",
+    "Can you make #list.lowercase.a# of the #structure#?"
+  ],
+  "factor": [
+    "attribute/part/component/ingredient",
+    "package/bundle/unit",
+    "people (lead, team, experts, audience, customer, hero, villain, others, yourself)",
+    "purpose/use/function",
+    "process/method/approach/recipe",
+    "priority",
+    "plan",
+    "perspective (understanding, POV)",
+    "context (situation, environment, location)",
+    "timing (frequency, speed, duration, tempo, deadlines)",
+    "value/cost",
+    "idea",
+    "theme/subject",
+    "strength/differentiator/unique advantage",
+    "appeal/emotion/pitch",
+    "goal",
+    "feature",
+    "material",
+    "relationship",
+    "rule",
+    "message",
+    "power source",
+    "tool/instrument",
+    "call to action",
+    "scarcity/bottleneck",
+    "style/genre"
+  ],
+  "attribute": [
+    "descriptive attribute (#descriptive#, #descriptive#, #descriptive#...)",
+    "process attribute (#process#, #process#, #process#...)",
+    "cost (to customer, retailer, wholesaler, manufacturer...)",
+    "social attribute (e.g. #social#)"
+  ],
+  "descriptive": [
+    "substance",
+    "structure ",
+    "#structure#",
+    "color",
+    "shape",
+    "texture",
+    "sound",
+    "taste",
+    "odor",
+    "space",
+    "density"
+  ],
+  "process": [
+    "marketing",
+    "manufacturing",
+    "selling",
+    "function",
+    "timing"
+  ],
+  "social": [
+    "responsibility",
+    "political stance",
+    "taboo",
+    "status",
+    "role"
+  ],
+  "structure": [
+    "sequence",
+    "layout",
+    "order",
+    "hierarchy"
+  ],
+  "steep": [
+    "social",
+    "technological",
+    "economic",
+    "ecological",
+    "political"
+  ],
+  "relation": [
+    "Complement",
+    "Dissonance",
+    "Analogy",
+    "Parallel",
+    "Similarity",
+    "Association",
+    "Connection"
+  ],
+  "collection": [
+    "Assortment",
+    "Ensemble",
+    "Variety",
+    "Collection",
+    "Group"
+  ],
+  "list": [
+    "List",
+    "Outline",
+    "Grid",
+    "Mindmap",
+    "Diagram",
+    "Card sort"
+  ],
+  "breakthrough": [
+    "Questions",
+    "Associations",
+    "Insights"
+  ],
+  "field": [
+    "science",
+    "economics",
+    "space",
+    "religion",
+    "comics",
+    "art",
+    "medicine", 
+    "physics",
+    "politics",
+    "advertising",
+    "ecology",
+    "music",
+    "theater",
+    "the wild west",
+    "ballet",
+    "sports",
+    "war",
+    "publishing",
+    "history",
+    "the army",
+    "hollywood",
+    "psychology",
+    "computer science",
+    "aeronautics",
+    "chemistry",
+    "anthropology",
+    "city planning",
+    "architecture"
+  ],
+  "nature": [
+    "seed",
+    "dna",
+    "seasons",
+    "tides",
+    "savanna",
+    "rainforest",
+    "ecology",
+    "wetland",
+    "river",
+    "ocean",
+    "crystal",
+    "animal",
+    "plant",
+    "insect",
+    "symbiotic relationship",
+    "predator/prey",
+    "ant",
+    "bee",
+    "beaver",
+    "keystone species",
+    "surge strategy",
+    "selection pressure",
+    "r-selection/k-selection"
+  ]
+}
