@@ -10,7 +10,11 @@ Ready?
 
 Run the script.
 
-Now, receive the prompt and ask yourself... in what ways might I rewrite this? Try expanding it into a tweet-sized provocation.
+Now, receive the prompt and ask yourself... in what ways might I expand it? Try rewriting it into a tweet-sized provocation.
+
+- What does it remind you of? Try mixing that into the prompt.
+- What examples, anecdotes can you include?
+- Can you expand on the prompt with a "why" explanation?
 
 ## Installing
 
