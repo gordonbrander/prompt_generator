@@ -1,6 +1,8 @@
 # prompt_generator
 
-A little script that generates prompts to help you write creative prompts.
+Procedurally generated Oblique Strategies for writing your own Oblique Strategies.
+
+See <https://subconscious.substack.com/p/prompt-generator>.
 
 ## How to use it
 
