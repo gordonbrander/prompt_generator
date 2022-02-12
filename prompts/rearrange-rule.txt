@@ -1,0 +1,1 @@
+Order rules from most to least important. What happens if you reverse them? What happens if you rearrange them? What are the top 3? Should you change them for something else?

@@ -1,0 +1,1 @@
+Simple rules produce complex behavior. Complex rules produce stupid behavior. Where can you combine rules to make them simple?
