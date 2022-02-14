@@ -91,12 +91,12 @@
     "#bottleneck#"
   ],
   "attribute": [
-    "descriptive attribute (#descriptive#, #descriptive#, #descriptive#...)",
+    "descriptive attribute (#descriptive_attribute#, #descriptive_attribute#, #descriptive_attribute#...)",
     "process attribute (#process_attribute#, #process_attribute#, #process_attribute#...)",
     "cost (to customer, retailer, wholesaler, manufacturer...)",
     "social attribute (e.g. #social#)"
   ],
-  "descriptive": [
+  "descriptive_attribute": [
     "substance",
     "structure ",
     "#structure#",
