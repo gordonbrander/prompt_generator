@@ -2,7 +2,9 @@
   "start": [
     "A #prompt_type# to #scamper.lowercase# #factor#",
     "A #prompt_type# to #scamper.lowercase# #attribute#",
-    "A #prompt_type# to make an analogy to #analogy#"
+    "A #prompt_type# to make an analogy to #analogy#",
+    "#prompt#",
+    "#prompt#"
   ],
   "prompt_type": [
     "provocation",
@@ -50,8 +52,8 @@
     "Can you think of a #relation.lowercase# from another field? How is the subject like #field.lowercase#? Try making a #list.lowercase#. What #relation.lowercase.s# do you see?"
   ],
   "modify_sentence": [
-    "What can we modify? #factor#? #factor#? #factor#?",
-    "What can we change to create #relation#.lowercase.a#?"
+    "What can we modify? #factor.capitalize#? #factor.capitalize#? #factor.capitalize#?",
+    "In what ways can we change something to create #relation.lowercase.a#?"
   ],
   "put_sentence": [
     "How might we put the #factor.lowercase# to other uses?"
@@ -62,36 +64,35 @@
     "Can you make #list.lowercase.a# of the #structure#?"
   ],
   "factor": [
-    "attribute/part/component/ingredient",
-    "package/bundle/unit",
-    "people (lead, team, experts, audience, customer, hero, villain, others, yourself)",
-    "purpose/use/function",
-    "process/method/approach/recipe",
+    "#attribute#",
+    "#unit#",
+    "#people#",
+    "#purpose#",
+    "#process#",
     "priority",
     "plan",
-    "perspective (understanding, POV)",
-    "context (situation, environment, location)",
-    "timing (frequency, speed, duration, tempo, deadlines)",
-    "value/cost",
-    "idea",
-    "theme/subject",
-    "strength/differentiator/unique advantage",
-    "appeal/emotion/pitch",
-    "goal",
+    "#perspective#",
+    "#context#",
+    "#timing#",
+    "#value#",
+    "#theme#",
+    "#differentiator#",
+    "appeal",
+    "emotion",
+    "pitch",
     "feature",
     "material",
     "relationship",
     "rule",
     "message",
     "power source",
-    "tool/instrument",
+    "tool",
     "call to action",
-    "scarcity/bottleneck",
-    "style/genre"
+    "#bottleneck#"
   ],
   "attribute": [
     "descriptive attribute (#descriptive#, #descriptive#, #descriptive#...)",
-    "process attribute (#process#, #process#, #process#...)",
+    "process attribute (#process_attribute#, #process_attribute#, #process_attribute#...)",
     "cost (to customer, retailer, wholesaler, manufacturer...)",
     "social attribute (e.g. #social#)"
   ],
@@ -108,7 +109,30 @@
     "space",
     "density"
   ],
+  "people": [
+    "lead",
+    "team",
+    "experts",
+    "audience",
+    "customer",
+    "hero",
+    "villain",
+    "others",
+    "yourself"
+  ],
+  "purpose": [
+    "purpose",
+    "use",
+    "function",
+    "goal"
+  ],
   "process": [
+    "process",
+    "method",
+    "approach",
+    "recipe"
+  ],
+  "process_attribute": [
     "marketing",
     "manufacturing",
     "selling",
@@ -136,33 +160,78 @@
     "political"
   ],
   "relation": [
-    "Complement",
-    "Dissonance",
-    "Analogy",
-    "Parallel",
-    "Similarity",
-    "Association",
-    "Connection"
+    "complement",
+    "dissonance",
+    "analogy",
+    "parallel",
+    "similarity",
+    "association",
+    "connection"
+  ],
+  "unit": [
+    "package",
+    "bundle",
+    "unit"
   ],
   "collection": [
-    "Assortment",
-    "Ensemble",
-    "Variety",
-    "Collection",
-    "Group"
+    "assortment",
+    "ensemble",
+    "variety",
+    "collection",
+    "group"
+  ],
+  "perspective": [
+    "perspective",
+    "understanding",
+    "POV"
+  ],
+  "context": [
+    "context",
+    "situation",
+    "environment",
+    "location"
+  ],
+  "timing": [
+    "timing",
+    "frequency",
+    "speed",
+    "duration",
+    "tempo",
+    "deadlines"
+  ],
+  "value": [
+    "value",
+    "cost"
+  ],
+  "theme": [
+    "theme",
+    "subject",
+    "idea",
+    "style",
+    "genre"
+  ],
+  "differentiator": [
+    "strength",
+    "differentiator",
+    "unique",
+    "advantage"
+  ],
+  "bottleneck": [
+    "scarcity",
+    "bottleneck"
   ],
   "list": [
-    "List",
-    "Outline",
-    "Grid",
-    "Mindmap",
-    "Diagram",
-    "Card sort"
+    "list",
+    "outline",
+    "grid",
+    "mindmap",
+    "diagram",
+    "card sort"
   ],
   "breakthrough": [
-    "Questions",
-    "Associations",
-    "Insights"
+    "questions",
+    "associations",
+    "insights"
   ],
   "field": [
     "science",
