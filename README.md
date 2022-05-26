@@ -25,9 +25,9 @@ Requirements: Python 3.7, Pip, .
 To clone the repository and install the dependencies:
 
 ```
-git clone git@github.com:gordonbrander/prompt_generator.git
+git clone https://github.com/gordonbrander/prompt_generator.git
 cd prompt_generator
-pip3 -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ## Running
@@ -36,6 +36,12 @@ From the `prompt_generator` directory:
 
 ```
 ./runtracery.py grammars/prompt.json
+```
+
+Or alternatively:
+
+```
+python3 ./runtracery.py ./grammars/prompt.json
 ```
 
 This will print a prompt on the console, such as...
